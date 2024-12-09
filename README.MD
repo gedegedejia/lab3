@@ -1,6 +1,6 @@
-# 区块链数据网站（https://blockexplorer.one/）的数据爬取
+# 区块链数据网站的数据爬取
 ## 项目简介
-本项目旨在利用Python编程语言及其Selenium库来实现对受Cloudflare保护的区块链数据网站（https://blockexplorer.one/）的数据爬取。通过使用undetected-chromedriver这一工具，绕过Cloudflare的图灵测试，从而获取以太坊交易记录的相关信息，包括交易From地址、To地址、交易金额、交易时间戳以及交易费。所有收集到的数据最终会被保存为CSV格式的文件，以便于进一步分析或处理。
+本项目旨在利用Python编程语言及其Selenium库来实现对受Cloudflare保护的区块链数据网站：```https://blockexplorer.one/```的数据爬取。通过使用undetected-chromedriver这一工具，绕过Cloudflare的图灵测试，从而获取以太坊交易记录的相关信息，包括交易From地址、To地址、交易金额、交易时间戳以及交易费。所有收集到的数据最终会被保存为CSV格式的文件，以便于进一步分析或处理。
 
 ## 开发要点
 ### 1．反爬取方法
